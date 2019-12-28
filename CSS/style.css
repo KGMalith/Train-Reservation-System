@@ -1,0 +1,1919 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .boxreserve {
+        padding-top: 50px;
+    }
+    
+    body {
+        font-family: Verdana, sans-serif;
+        color: black;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Img/Train5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*Heder */
+    
+    .h {
+        width: 100%;
+        height: 160px;
+        margin-top: -20px;
+        background-color: black;
+        color: orange;
+    }
+    
+    h1 {
+        text-align: center;
+        color: orange;
+        position: relative;
+        top: 15px;
+    }
+    
+    .logo {
+        width: 160px;
+        height: 150px;
+        float: left;
+        margin-left: 10px;
+        margin-top: -55px;
+    }
+    
+    .lock {
+        float: right;
+        width: 75px;
+        height: 75px;
+        margin-top: -50px;
+        margin-right: 20px;
+    }
+    
+    .navi {
+        overflow: hidden;
+        background-color: #2e2c28;
+        width: 86%;
+        position: relative;
+        top: -55px;
+        left: 180px;
+    }
+    
+    .navi a {
+        position: relative;
+        left: 0px;
+        float: left;
+        display: block;
+        color: orange;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .navi a:hover {
+        background-color: orange;
+        color: black;
+    }
+    
+    .navi .home1 {
+        background-color: orange;
+        color: white;
+    }
+    
+    .navi .search {
+        float: right;
+    }
+    
+    .navi input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+    
+    .navi .search button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: black;
+        font-size: 17px;
+        color: orange;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .navi .search button:hover {
+        background: orange;
+        color: black;
+    }
+    /*Footer pages */
+    /* Login */
+    
+    .fullfooter {
+        margin: 620px 0px 0px 0px;
+    }
+    /*Register */
+    
+    .fullfooter1 {
+        margin: 10px 0px 0px 0px;
+    }
+    /*Footer Reservation 3 */
+    
+    .footer3 {
+        float: left;
+        padding-top: -20px;
+        width: 100%;
+        height: 270px;
+        background-color: orange;
+        color: black;
+        margin-top: 650px;
+    }
+    
+    .footer3 .contact {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        right: -10px;
+    }
+    
+    .footer3 .email {
+        text-align: left;
+        margin-left: 70px;
+    }
+    
+    .footer3 .social img {
+        left: 72%;
+        width: 58px;
+        height: 58px;
+        position: relative;
+        top: -50px;
+        margin: 10px;
+    }
+    
+    .footer3 .payment img {
+        width: 80px;
+        height: 80px;
+        left: 38%;
+        position: relative;
+        top: -60px;
+        margin: 10px;
+    }
+    /*Footer 01 */
+    
+    .footer1 {
+        float: left;
+        padding-top: -20px;
+        width: 100%;
+        height: 270px;
+        background-color: orange;
+        color: black;
+        margin-top: 20px;
+    }
+    
+    .footer1 .contact {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        right: -10px;
+    }
+    
+    .footer1 .email {
+        text-align: left;
+        margin-left: 70px;
+    }
+    
+    .footer1 .social img {
+        left: 72%;
+        width: 58px;
+        height: 58px;
+        position: relative;
+        top: -50px;
+        margin: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    #link li {
+        display: inline;
+        position: relative;
+        bottom: -60px;
+        left: -22px;
+        padding-right: 25px;
+    }
+    
+    .footer1 .payment img {
+        width: 80px;
+        height: 80px;
+        left: 38%;
+        position: relative;
+        top: -60px;
+        margin: 10px;
+    }
+    /*Footer 02 */
+    
+    .footer2 {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        float: left;
+        color: white;
+        text-align: left;
+        background-color: #808080;
+    }
+    /*Home */
+    
+    #but {
+        margin: 50px 0px 0px 0px;
+    }
+    
+    .button2 {
+        width: 180px;
+        height: 50px;
+        background-color: black;
+        color: #fff;
+        font-size: 17px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        border: 2px solid grey;
+        float: right;
+        border-radius: 20px;
+        margin-right: 35px;
+    }
+    
+    .button2:hover {
+        background-color: orange;
+        color: white;
+    }
+    
+    #box4 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        color: white;
+        font-size: 18px;
+        margin-top: 150px;
+        height: 300px;
+        padding: 5px 0px 0px 15px;
+    }
+    
+    .reserve1 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 900px;
+        margin: 750px 0px 0px 280px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    /*Slide Show*/
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .slideShow {
+        position: relative;
+        margin: auto;
+    }
+    
+    .slideShow .mySlide img {
+        vertical-align: middle;
+    }
+    /* Slideshow container */
+    
+    .slideshow-container {
+        width: 100%;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        margin: auto;
+    }
+    /*places*/
+    
+    .nuwaraeliya img {
+        width: 160px;
+        height: 150px;
+    }
+    
+    .nuwaraeliya {
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+    
+    .kandy img {
+        width: 160px;
+        height: 150px;
+    }
+    
+    .kandy {
+        margin-left: 500px;
+        margin-top: -250px;
+    }
+    
+    .ella img {
+        width: 160px;
+        height: 150px;
+    }
+    
+    .ella {
+        margin-left: 1000px;
+        margin-top: -250px;
+    }
+    
+    .badulla img {
+        width: 160px;
+        height: 150px;
+    }
+    
+    .badulla {
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    
+    .Batticaloa img {
+        width: 160px;
+        height: 150px;
+    }
+    
+    .Batticaloa {
+        margin-left: 500px;
+        margin-top: -250px;
+    }
+    
+    .peradeniya img {
+        width: 160px;
+        height: 150px;
+    }
+    
+    .peradeniya {
+        margin-left: 1000px;
+        margin-top: -250px;
+    }
+    
+    #box1 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    /*Ticket Price page */
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    tr:nth-child(odd) {
+        background-color: gray;
+    }
+    
+    td,
+    th {
+        border: 1px solid orange;
+    }
+    
+    .table1 {
+        border: 1px solid white;
+        color: black;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .table2 {
+        border-collapse: collapse;
+        width: 25%;
+        color: black;
+        text-align: center;
+    }
+    
+    .Nlist {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+    
+    th {
+        height: 25%;
+        background-color: orange;
+    }
+    
+    .topic {
+        color: white;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+    
+    .classN {
+        color: white;
+    }
+    
+    p {
+        color: white;
+    }
+    
+    .pagination {
+        display: inline-block;
+        margin-left: 500px;
+    }
+    
+    .pagination a {
+        background-color: white;
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+    }
+    
+    .pagination a.active {
+        background-color: orange;
+        color: white;
+        border: 1px solid #4CAF50;
+    }
+    
+    .pagination a:hover:not(.active) {
+        background-color: lightskyblue;
+    }
+    /* Register */
+    
+    .bar {
+        background-color: #6cc2e7;
+        width: 500px;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    .register h4 {
+        margin: 0;
+        padding: 0 0 20px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .register {
+        background: rgba(0, 0, 0, 0.6);
+        width: 500px;
+        margin: 0px 0px 0px 450px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    
+    .register form {
+        padding-top: 20px;
+    }
+    
+    label {
+        color: white;
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    
+    #usrName {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #fiName {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #laname {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #email2 {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #nation {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #readdress {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #mobinumber {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #pass {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #pass1 {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #gend {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #birthday {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #sub2 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        cursor: pointer;
+    }
+    
+    #sub2:hover {
+        background: #808080;
+    }
+    
+    #reset3 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        cursor: pointer;
+    }
+    
+    #reset3:hover {
+        background: #808080;
+    }
+    /* Reservation */
+    
+    .reserv1 {
+        background-color: #6cc2e7;
+        width: 900px;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    .reserve {
+        background: rgba(0, 0, 0, 0.6);
+        width: 900px;
+        margin: -10px 0px 0px 280px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    #availability {
+        margin-left: 50px;
+    }
+    
+    #first {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 150px;
+    }
+    
+    #secound {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #date {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 35.4px;
+    }
+    
+    #time {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 199px;
+    }
+    
+    #trainClass {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 93px;
+    }
+    
+    #sub {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 300px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        cursor: pointer;
+    }
+    
+    #sub:hover {
+        background: #808080;
+    }
+    
+    #res {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        cursor: pointer;
+    }
+    
+    #res:hover {
+        background: #808080;
+    }
+    /* Reservation 02 */
+    
+    h3 {
+        text-align: center;
+        color: orange;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    #reservationTable {
+        border-collapse: collapse;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    
+    #reservationTable th {
+        text-align: left;
+        background-color: #3a6070;
+        color: #fff;
+        padding: 4px 30px 4px 8px;
+    }
+    
+    #reservationTable td {
+        border: 1px solid #e3e3e3;
+        padding: 4px 8px;
+    }
+    
+    #reservationTable tr:nth-child(odd) td {
+        background-color: #aec9d6;
+    }
+    
+    .sub3 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 900px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    .res3 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    .sub3:hover {
+        background: red;
+    }
+    
+    .res3:hover {
+        background: red;
+    }
+    /*Add Promotion */
+    
+    .retopic {
+        width: 700px;
+        background-color: #6cc2e7;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    .retopic h2 {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    #pname {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 50px;
+    }
+    
+    #box {
+        background: rgba(0, 0, 0, 0.6);
+        width: 700px;
+        margin: 0px 0px 0px 300px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    
+    #pid {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    
+    #ptitle {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 237px;
+        margin-top: 10px;
+    }
+    
+    #sdate {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    
+    #edate {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #pdes {
+        width: 500px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    #bbutton {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 380px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    #bbutton:hover {
+        background-color: red;
+    }
+    
+    #conf {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 35px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    #conf:hover {
+        background-color: red;
+    }
+    /*Confirm & Refund */
+    
+    #refu {
+        border-collapse: collapse;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    
+    #refu th {
+        text-align: left;
+        background-color: #3a6070;
+        color: #fff;
+        padding: 4px 30px 4px 8px;
+    }
+    
+    #refu td {
+        border: 1px solid #e3e3e3;
+        padding: 4px 8px;
+    }
+    
+    #refu tr:nth-child(odd) td {
+        background-color: #aec9d6;
+    }
+    
+    #backb {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 1000px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    #backb:hover {
+        background-color: red;
+    }
+    
+    #sub4 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 35px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    #sub4:hover {
+        background-color: red;
+    }
+    /*Admin */
+    
+    .topic3 {
+        width: 1100px;
+        background-color: #6cc2e7;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    #box2 {
+        background: grey;
+        width: 1100px;
+        margin: 0px 0px 0px 120px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    
+    .newbutton img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .newbutton1 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 200px;
+    }
+    
+    .newbutton2 img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .newbutton3 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 150px;
+    }
+    
+    .newbutton4 img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .newbutton5 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 400px;
+    }
+    /*RemovePromo */
+    
+    #box5 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        margin-top: -20px;
+    }
+    
+    #removepromotable {
+        border-collapse: collapse;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    
+    #removepromotable th {
+        text-align: left;
+        background-color: #3a6070;
+        color: black;
+        padding: 4px 30px 4px 8px;
+    }
+    
+    #removepromotable td {
+        border: 1px solid #e3e3e3;
+        padding: 4px 8px;
+        color: black;
+    }
+    
+    #removepromotable tr:nth-child(odd) td {
+        background-color: #aec9d6;
+        color: black;
+    }
+    
+    #bbutton2 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 1000px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    #bbutton2:hover {
+        background-color: red;
+    }
+    
+    #sub5 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 35px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    #sub5:hover {
+        background-color: red;
+    }
+    /*Terms & Conditions */
+    
+    #box3 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 1000px;
+        margin: 0px 0px 0px 160px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    /*login */
+    
+    .login-form {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .contact-sec {
+        padding-top: 400px;
+        padding-bottom: 0;
+    }
+    
+    #contact-form {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 700px;
+        padding: 80px 40px;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
+    .avatar {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: calc(-80px/2);
+        left: calc(50% - 40px);
+    }
+    
+    #contact-form h2 {
+        margin: 0;
+        padding: 0 0 20px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    #contact-form label {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    #contact-form input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #contact-form input[type=text],
+    #contact-form input[type=password] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 35px;
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    #contact-form select {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    #sub6 {
+        height: 30px;
+        color: #fff;
+        font-size: 15px;
+        background: red;
+        cursor: pointer;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        margin-top: 15%;
+    }
+    
+    #contact-form label input[type=checkbox] {
+        width: 20%;
+    }
+    /* Contact US */
+    
+    #box7 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 700px;
+        margin: 0px 0px 0px 300px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    
+    #box7 form label {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    #box7 h2 {
+        color: orange;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #name1 {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 50px;
+    }
+    
+    #mail1 {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-left: 85px;
+    }
+    
+    #text {
+        width: 500px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    #submit1 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 500px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    #submit1:hover {
+        background-color: red;
+    }
+    /* Booking cancellation */
+    
+    #backb2 {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 4px 2px 15px 0px;
+    }
+    
+    #table3 {
+        border-collapse: collapse;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    
+    #table3 th {
+        text-align: left;
+        background-color: #3a6070;
+        color: #fff;
+        padding: 4px 30px 4px 8px;
+    }
+    
+    #table3 td {
+        border: 1px solid #e3e3e3;
+        padding: 4px 8px;
+    }
+    
+    #table3 tr:nth-child(odd) td {
+        background-color: #aec9d6;
+    }
+    
+    .back1 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 980px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    .back1:hover {
+        background-color: red;
+    }
+    
+    .submit01 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    .submit01:hover {
+        background-color: red;
+    }
+    /*About US */
+    
+    .about {
+        width: 100%;
+    }
+    
+    .bar1 {
+        width: 1000px;
+        background-color: #6cc2e7;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    .bar1 h3 {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    #backbox {
+        background: rgba(0, 0, 0, 0.6);
+        margin: 0px 0px 0px 180px;
+        width: 1000px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    /*Add New Trains */
+    
+    #box8 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 500px;
+        margin: 0px 0px 50px 430px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    
+    #box9 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 250px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        left: 1000px;
+        top: -500px;
+    }
+    
+    #cusbox {
+        left: 500px;
+    }
+    
+    .topic2 {
+        background-color: #6cc2e7;
+        width: 500px;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    .topic2 h3 {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    #trainNo {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #trainclass {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #trainName {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #source {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #destination {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #tainArTime {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #tainDeTime {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #date1 {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #station {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #sub7 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        cursor: pointer;
+    }
+    
+    #sub7:hover {
+        background: #808080;
+    }
+    
+    #sub8 {
+        width: auto;
+        padding: 7px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        cursor: pointer;
+        background: ;
+    }
+    
+    #sub8:hover {
+        background: #808080;
+    }
+    
+    #cancel1 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        outline: 0;
+        cursor: pointer;
+    }
+    
+    #cancel1:hover {
+        background: #808080;
+    }
+    /*Booking History */
+    
+    .back2 {
+        width: 100px;
+        padding: 7px;
+        margin-top: -10px;
+        margin-left: 1100px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    .back2:hover {
+        background-color: red;
+    }
+    /*Refund Details */
+    
+    #box5 table {
+        color: black;
+    }
+    /*Remove Trains */
+    
+    .b1 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 980px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    .b1:hover {
+        background-color: red;
+    }
+    
+    .c1 {
+        width: 100px;
+        padding: 7px;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 5px;
+        outline: 0;
+        cursor: pointer;
+        text-align: center;
+        /*Text middle of the button*/
+        color: #fff;
+        /*color of button text White= #fff */
+        background: #222222;
+        height: 39px;
+        border: 1px solid #0076a3;
+    }
+    
+    .c1:hover {
+        background-color: red;
+    }
+    /*User Panel */
+    
+    #box6 {
+        background: grey;
+        width: 900px;
+        margin: 0px 0px 0px 200px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -20px;
+    }
+    
+    .topic4 {
+        width: 900px;
+        background-color: #6cc2e7;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    .topic5 {
+        background-color: #6cc2e7;
+        width: 250px;
+        margin: -22px 0px 0px -20px;
+        padding: 11px 0px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+    }
+    
+    .button3 {
+        width: 180px;
+        height: 50px;
+        background-color: black;
+        color: #fff;
+        font-size: 17px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        border: 2px solid grey;
+        float: left;
+        border-radius: 20px;
+        margin-left: 35px;
+    }
+    
+    .button3:hover {
+        background-color: orange;
+        color: white;
+    }
+    
+    div .error {
+        width: 80%;
+        margin: -7px 49px auto;
+        padding: 10px;
+        border: 1px solid red;
+        color: rgb(216, 39, 39);
+        border-radius: 5px;
+        background-color: #ca4242;
+    }
+    /*Reservation 03 */
+    
+    .app-container {
+        height: 650px;
+        width: 350px;
+        background-image: linear-gradient(#580e8f, #9200ff);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        margin-top: 300px;
+    }
+    
+    .top-box {
+        height: 87px;
+        background-color: #9100fb;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    
+    .topbox p {
+        text-align: center;
+        padding-top: 20px;
+        color: #fff;
+    }
+    
+    .left-icon {
+        float: left;
+        margin-left: 30px;
+    }
+    
+    .right-icon {
+        float: right;
+        margin-right: 30px;
+    }
+    
+    .middle-box {
+        height: 150px;
+        background-image: linear-gradient(#580e8f, #9200ff);
+        margin: -70px 30px 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+    
+    .middle-box h1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 50px;
+        font-weight: normal;
+    }
+    
+    .middle-box h1 span {
+        font-size: 20px;
+        margin-left: 5px;
+        bottom: 18px;
+        position: relative;
+    }
+    
+    .payment-option-btn {
+        color: #fff;
+        margin: 5px 30px;
+        height: 30px;
+        width: 290px;
+        background-color: #9100fd;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .card-details {
+        background: #fff;
+        color: #555;
+        margin: 10px 30px;
+        padding: 10px;
+    }
+    
+    .card-details p {
+        font-size: 14px;
+    }
+    
+    .card-details label {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .card-num-field-group {
+        margin-top: 10px;
+    }
+    
+    .date-field-group {
+        margin-top: 10px;
+        display: inline-block;
+    }
+    
+    .cvc-field-group {
+        margin-top: 10px;
+        display: inline-block;
+        float: right;
+    }
+    
+    .name-field-group {
+        margin-top: 10px;
+    }
+    
+    .card-num-field,
+    .name-field {
+        width: 270px;
+    }
+    
+    .date-field,
+    .cvc-field {
+        width: 80px;
+    }
+    
+    .card-details input {
+        border: 1px solid #ccc;
+        height: 22px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .card-details input ::placeholder {
+        color: #ccc;
+    }
+    
+    .pay-btn {
+        width: 270px;
+        color: #fff;
+        margin-top: 20px;
+        height: 30px;
+        background-color: #9100fd;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .card-details label {
+        color: black;
+    }
+    
+    .card-details p {
+        color: black;
+    }
